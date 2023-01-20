@@ -1,0 +1,59 @@
+.row{
+    position:relative;
+    margin-left:10%;
+    margin-right:10%;
+   }
+.white{
+    border: 1.5px solid black;
+    width: 10%;
+    height: 60px;
+    background-color:white;
+    float:left;
+   }
+    
+   .black{
+    border: 1.5px solid black;
+    width: 10%;
+    height: 60px;
+    background-color:#787878;
+    float:left;
+   }
+   #footer {
+    border:solid 1px;
+    padding: 10px;
+    background-color:rgb(81, 95, 163);
+    display: block;
+    margin: auto;
+    text-align: center;
+   }
+   #container {
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:15%;
+   }
+   .clear {
+        clear: both;
+   }
+   #title {
+    position:fixed;
+    top:0px;
+    left:0px; 
+    padding:10px;
+    margin:0px;
+    width:100%;
+    background-color:rgb(81, 95, 163);
+    text-align:center; 
+    z-index:10;
+    font-family: 'IosevkaExtralightExtendedOblique';
+   font-weight: normal;
+   font-style: italic; 
+    font-size:56px;
+   }
+   body {
+    background-image:url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   }
+   img {
+    margin-left: 5px;
+    margin-top:10px;
+    }
