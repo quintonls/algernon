@@ -1,0 +1,61 @@
+* {
+    font-family: 'CactronRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#content {
+    overflow: auto;
+}
+#nav {
+    margin: 1%;
+    background-color: #82b4ec;
+    padding: 0.5em 0;
+}
+#feature {
+    margin: 1%;
+    background: url(https://cdn-icons-png.flaticon.com/512/2292/2292038.png),#82b4ec;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 10em;
+    margin-bottom: 1em;
+}
+#footer {
+    margin: 1%;
+    background-color: aqua;
+    padding: 0.5em 0;
+}
+.column1 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: rgb(103, 103, 233);
+}
+.column2 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: rgb(48, 128, 130);
+}
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    margin-right: 0%;
+    background-color: rgb(34, 34, 108);
+}
+li {
+    display: inline;
+    padding: 0.5em;
+}
+.article {
+    height: 10em;
+    margin-bottom: 1em;
+}
