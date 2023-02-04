@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="portfolio_design.css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cactron" type="text/css">
+    <title>Contact Me</title>
+<body>
+    <div id="topmenu">
+        <ul>
+        <li><a href="website_portfolio.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="coursework.html">Course Work</a></li>
+        <li><a href="artifacts.html">Artifacts</a></li>
+        <li><a href="module_assignments.html">Module Assignments</a></li>
+        <li><a href="contact_me.html">Contact Me</a></li>
+        </ul>
+        </div>
+    <h1>Contact Me</h1>
+    <link href="contact-form.css" rel="stylesheet">
+
+<div class="contact-form-body">
+
+    <div id="contact-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Subject" class="fcf-label">Subject</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+        <form action="contact_me.html" method="get"
+        name="myContact">
+    </form>
+    </div>
+
+</div>
+    <p>page must have a form that collects the user's name, a subject for the message and an area to enter additional information from the user. Once the form is submitted, a Thank you page should be shown.
+
+        NOTE:  We are not doing SERVER-SIDE scripting, but just simulating how to send the data to the server.  The way this work is by using the attribute action in your <form>:
+        
+        ...
+        
+        </form></p>
+</body>
+
+</html>
